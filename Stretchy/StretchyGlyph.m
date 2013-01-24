@@ -25,7 +25,7 @@
 #define CURVE_PERCENT 0.7f
 #define TOP_LIMIT .10f
 #define SQUEEZE_LIMIT 0.4f
-#define STRETCHY_WIDTH 20.0f
+#define STRETCHY_WIDTH 100.0f
 
 - (void)drawRect:(CGRect)rect
 {
