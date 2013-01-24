@@ -12,6 +12,8 @@
   
   CGPoint point, firstTouchPoint_, currentTouch_; // touchPoint - currentTouchPoint
   CGPoint distance_;
+  CGPoint previousDistance_;
+  BOOL stop_;
 }
 
 -(void)stretch: (CGPoint) pos;
